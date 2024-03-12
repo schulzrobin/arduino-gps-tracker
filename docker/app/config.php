@@ -4,7 +4,7 @@ define('DB_USERNAME', 'ENTER_DB_USERNAME');
 define('DB_PASSWORD', 'ENTER_DB_PASSWORD'); 
 define('DB_NAME', 'ENTER_DB_NAME');
 
-date_default_timezone_set('Asia/Karachi');
+date_default_timezone_set('Europe/Zurich');
 
 // Connect with the database 
 $db = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME); 
