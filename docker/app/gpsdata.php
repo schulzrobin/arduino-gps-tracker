@@ -4,6 +4,7 @@ require 'config.php';
 
 $lat = $_GET['lat'];
 $lng = $_GET['lng'];
+$alt = $_GET['alt'];
 
 echo $lat;
 echo "<br>";
