@@ -89,7 +89,7 @@ int sendGpsToServer()
       //if (latitude == 0) {return 0;}
       
       String url, temp;
-      url = "http://ENTER_YOUR_WEBSITE/gpsdata.php?lat=";
+      url = "http://tracker1.robin-schulz.ch/gpsdata.php?lat=";
       url += latitude;
       url += "&lng=";
       url += longitude;
