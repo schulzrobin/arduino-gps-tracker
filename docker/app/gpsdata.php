@@ -4,14 +4,10 @@ require 'config.php';
 
 $lat = $_GET['lat'];
 $lng = $_GET['lng'];
-$alt = $_GET['alt'];
 
 echo $lat;
 echo "<br>";
 echo $lng;
-echo "<br>";
-echo $alt;
-
 
 $sql = "INSERT INTO tbl_gps(lat,lng,created_date) 
 	VALUES('".$lat."','".$lng."','".date("Y-m-d H:i:s")."')";
