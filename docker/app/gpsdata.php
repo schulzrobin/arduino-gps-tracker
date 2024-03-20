@@ -9,6 +9,8 @@ $alt = $_GET['alt'];
 echo $lat;
 echo "<br>";
 echo $lng;
+echo "<br>";
+echo $alt;
 
 
 $sql = "INSERT INTO tbl_gps(lat,lng,created_date) 
