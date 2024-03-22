@@ -1,8 +1,8 @@
 <?php 
-define('DB_HOST', 'ENTER_DB_HOST'); 
-define('DB_USERNAME', 'ENTER_DB_USERNAME'); 
-define('DB_PASSWORD', 'ENTER_DB_PASSWORD'); 
-define('DB_NAME', 'ENTER_DB_NAME');
+define('DB_HOST', 'localhost'); 
+define('DB_USERNAME', 'gpstracker'); 
+define('DB_PASSWORD', 'gps'); 
+define('DB_NAME', 'locations');
 
 date_default_timezone_set('Europe/Zurich');
 
